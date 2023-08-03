@@ -10,22 +10,10 @@
 
 {
     "dashboard/sidemenu": {
-        "scope": "",
-        "version": "",
+        "scope": "glauro-quintao.produtor",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "produtor/dashboard/sidemenu",
-        "nextVersion": {
-            "version": "patch",
-            "message": "my message",
-            "username": "glauroqj",
-            "email": "glauro.juliani@hotmail.com"
-        },
-        "config": {
-            "teambit.react/react-env@0.1.13": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            }
-        }
+        "rootDir": "produtor/dashboard/sidemenu"
     },
     "$schema-version": "15.0.0"
 }
