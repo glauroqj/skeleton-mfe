@@ -1,6 +1,6 @@
 import { Sidemenu } from "./sidemenu";
 
-export const BasicSidemenu = () => {
+export const BasicSidemenu = ({ name }) => {
   return (
     <Sidemenu>
       <ul>

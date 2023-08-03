@@ -14,6 +14,12 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "produtor/dashboard/sidemenu",
+        "nextVersion": {
+            "version": "patch",
+            "message": "my message",
+            "username": "glauroqj",
+            "email": "glauro.juliani@hotmail.com"
+        },
         "config": {
             "teambit.react/react-env@0.1.13": {},
             "teambit.envs/envs": {
