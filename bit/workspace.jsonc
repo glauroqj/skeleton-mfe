@@ -1,0 +1,38 @@
+/**
+ * The workspace.jsonc file is the workspace configuration file.
+ * It lists which Bit aspects (a type of components that compose Bit)
+ * are to be used by this workspace, and provides them with config.
+ */{
+  "teambit.workspace/workspace": {
+    /* the workspace name (used only for development) */
+    "name": "produtor",
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    /*
+     * the directory location for new and imported components.
+     * the 'scope' and 'name' placeholders corresponds
+     * to the name and scope of each component
+     **/
+    "defaultDirectory": "{scope}/{name}",
+    /* the default remote scope for new components */
+    "defaultScope": "glauro-quintao.produtor"
+  },
+  "teambit.generator/generator": {
+    "envs": [
+      /* the default env for react components */
+      "teambit.react/react-env",
+      /* the default env for node components */
+      "teambit.node/node"
+    ]
+  },
+  "teambit.dependencies/dependency-resolver": {
+    /* the package manager to use in this workspace */
+    "packageManager": "teambit.dependencies/pnpm",
+    /**
+     * the dependencies to install in this workspace -
+     * packages and components
+     **/
+    "policy": {
+      "dependencies": {}
+    }
+  }
+}

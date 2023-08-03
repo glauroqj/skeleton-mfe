@@ -1,0 +1,9 @@
+[
+  {
+    "id": {
+      "scope": "teambit.node",
+      "name": "node"
+    },
+    "head": "c267510daec3d324f7a57c2a58c74095e71dc780"
+  }
+]

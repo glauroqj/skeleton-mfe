@@ -1,0 +1,21 @@
+{
+  "components": [
+    {
+      "id": {
+        "scope": "teambit.react",
+        "name": "react-env"
+      },
+      "isSymlink": false,
+      "hash": "b2ee4ccd9145c2c8be734d43c29d97bb54a99c0e"
+    },
+    {
+      "id": {
+        "scope": "teambit.node",
+        "name": "node"
+      },
+      "isSymlink": false,
+      "hash": "afbebb82b1e61b6a3376e8833cc04e5c2d0f9324"
+    }
+  ],
+  "lanes": []
+}
